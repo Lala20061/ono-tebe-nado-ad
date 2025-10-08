@@ -10,7 +10,7 @@
 
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: "Raleway", sans-serif;
   min-height: 3028px;
 }
 
@@ -58,7 +58,6 @@ body {
   width: 148px;
   height: 105px;
   opacity: 100%;
-  
 }
 
 .logo img {
@@ -117,6 +116,7 @@ body {
 .word-1 {
  text-align: left;
 }
+
 .word-2 {
   text-align: center;
 }
