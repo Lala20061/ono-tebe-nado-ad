@@ -8,7 +8,6 @@
   margin: 0 auto;
 }
 
-
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
@@ -41,7 +40,6 @@ body {
   padding-left: 50px;
 }
 
-
 .menu-item {
     color: black;
 }
@@ -55,7 +53,6 @@ body {
   color: black;
 }
 
-
 .logo {
   width: 148px;
   height: 105px;
@@ -66,7 +63,6 @@ body {
 .logo img {
   padding: 7px 7px;
 }
-
 
 .contact {
   font-style: normal;
@@ -80,7 +76,6 @@ body {
   line-height: 24.3px;
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
-  word-wrap: break-word;
 }
 
 .contact a {
@@ -279,7 +274,6 @@ body {
   height: 100%;
 }
 
-
 .card__text {
   padding: 0 40px 48px;
   color: #ffffff;
@@ -291,7 +285,6 @@ body {
   margin: 0;
 }
 
-/* Ссылка "Посмотреть больше" */
 .lots__look-more-link {
   display: block;
   padding-left: 40px;
