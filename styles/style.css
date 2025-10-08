@@ -10,7 +10,7 @@
 
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .header {
@@ -57,7 +57,6 @@ body {
   width: 148px;
   height: 105px;
   opacity: 100%;
-  
 }
 
 .logo img {
@@ -71,7 +70,7 @@ body {
   width: 240px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 24px;
   font-style: normal;
   line-height: 24.3px;
   text-decoration-skip-ink: none;
@@ -119,7 +118,6 @@ body {
 .word-2 {
   text-align: center;
 }
-
 .word-3 {
   text-align: right;
 }
@@ -130,10 +128,6 @@ body {
   z-index: -1;
   background-color: #000;
   opacity: 0.6;
-}
-
-.cover {
-  position: relative;
 }
 
 .description {
@@ -303,7 +297,6 @@ body {
   min-height: 595px;
   margin-top: 120px;
   padding: 0 24px;
-  margin-bottom: 180px;
 }
 
 .about__logo {
@@ -363,7 +356,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 50px; /* ← отступы по бокам */
+  padding: 0 50px; 
   box-sizing: border-box;
 }
 
