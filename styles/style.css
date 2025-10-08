@@ -72,7 +72,6 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  font-style: normal;
   line-height: 24.3px;
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
@@ -135,7 +134,7 @@ body {
 }
 
 .description {
- display: grid;
+  display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: center;
   padding: 106px 50px 0;
@@ -165,9 +164,9 @@ body {
   font-weight: 500;
   font-size: 22px;
   line-height: 25.83px; 
-  text-transform: uppercase;
   cursor: pointer;
   transition: transform 0.4s, opacity 0.2s;
+  text-transform: uppercase;
 }
 
 .button:hover {
@@ -264,9 +263,9 @@ body {
 }
 
 .lot_content {
+  display: flex;
   position: relative;
   z-index: 2; 
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
@@ -354,6 +353,7 @@ body {
 }
 
 .footer {
+  box-sizing: border-box;
   width: 1100px;
   height: 180px;
   margin: 0 auto;
@@ -361,7 +361,6 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 50px; 
-  box-sizing: border-box;
   margin-top: 50px;
 }
 
