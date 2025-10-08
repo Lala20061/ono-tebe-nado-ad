@@ -10,7 +10,8 @@
 
 body {
   margin: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Arial', sans-serif;
+  min-height: 3028px;
 }
 
 .header {
@@ -57,6 +58,7 @@ body {
   width: 148px;
   height: 105px;
   opacity: 100%;
+  
 }
 
 .logo img {
@@ -70,7 +72,7 @@ body {
   width: 240px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
   text-decoration-skip-ink: none;
@@ -118,8 +120,10 @@ body {
 .word-2 {
   text-align: center;
 }
+
 .word-3 {
   text-align: right;
+  margin-left: 600px;
 }
 
 .overlay {
@@ -160,7 +164,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 22px;
-  line-height: 25.83px; /* ← как в рабочем коде */
+  line-height: 25.83px; 
   text-transform: uppercase;
   cursor: pointer;
   transition: transform 0.4s, opacity 0.2s;
@@ -177,7 +181,7 @@ body {
 
 .lots {
   width: 1100px;
-  margin: 180px auto 0;
+  margin: 160px auto 0;
   padding: 0 24px;
   box-sizing: border-box;
 }
@@ -331,7 +335,7 @@ body {
 .about_box {
   justify-self: end;
   width: 693px;
-  padding-top: 133px;
+  padding-top: 95px;
 }
 
 .about__text {
@@ -358,21 +362,7 @@ body {
   justify-content: space-between;
   padding: 0 50px; 
   box-sizing: border-box;
-}
-
-.contact {
-  font-style: normal;
-  text-align: left;
-  color: #000;
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-  margin: 0;
-}
-
-.contact a {
-  color: #000;
-  text-decoration: underline;
+  margin-top: 50px;
 }
 
 .menu ul {
