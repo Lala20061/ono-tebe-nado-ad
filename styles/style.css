@@ -1,18 +1,8 @@
-.header,
-.cover,
-.section-2,
-.lots,
-.about,
-.footer {
+body {
   width: 1100px;
   margin: 0 auto;
-}
-
-body {
-  margin: 0;
   font-family: "Raleway", sans-serif;
   min-height: 3028px;
-  padding-left: 83px;
 }
 
 .header {
@@ -43,7 +33,7 @@ body {
 }
 
 .menu-item {
-    color: black;
+  color: black;
 }
 
 .menu-item_active {
@@ -88,11 +78,11 @@ body {
   z-index: 0;
   box-sizing: border-box;
   min-height: 757px;
-  background-image:url(../images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  color: #fff; 
+  color: #fff;
 }
 
 .cover_title {
@@ -114,7 +104,7 @@ body {
 }
 
 .word-1 {
- text-align: left;
+  text-align: left;
 }
 
 .word-2 {
@@ -139,7 +129,7 @@ body {
   grid-template-columns: 2fr 1fr;
   align-items: center;
   padding: 106px 50px 0;
-  margin: 0; 
+  margin: 0;
 }
 
 .description-text {
@@ -151,7 +141,7 @@ body {
   line-height: 28px;
   text-transform: uppercase;
   word-spacing: 20px;
-  margin: 0; 
+  margin: 0;
 }
 
 .button {
@@ -164,7 +154,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 22px;
-  line-height: 25.83px; 
+  line-height: 25.83px;
   cursor: pointer;
   transition: transform 0.4s, opacity 0.2s;
   text-transform: uppercase;
@@ -184,7 +174,6 @@ body {
   margin: 180px auto 0;
   padding: 0 24px;
   box-sizing: border-box;
-  
 }
 
 .lots__heading {
@@ -194,7 +183,6 @@ body {
   font-size: 40px;
   line-height: 46.96px;
   text-transform: uppercase;
-  
 }
 
 .lots__card-list {
@@ -235,19 +223,19 @@ body {
 }
 
 .card_type_film {
-  background-image: url('../images/card-lot-01.jpg');
+  background-image: url("../images/card-lot-01.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .card_type_book {
-  background-image: url('../images/card-lot-02.jpg');
+  background-image: url("../images/card-lot-02.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .card_type_picture {
-  background-image: url('../images/card-lot-03.jpg');
+  background-image: url("../images/card-lot-03.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -268,7 +256,7 @@ body {
 .lot_content {
   display: flex;
   position: relative;
-  z-index: 2; 
+  z-index: 2;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
@@ -363,7 +351,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 50px; 
+  padding: 0 50px;
   margin-top: 120px;
 }
 
